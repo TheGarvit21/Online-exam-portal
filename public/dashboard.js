@@ -387,7 +387,9 @@ class ExamManager {
                 }
             });
 
-            const timeSpent = this.formatTime(7200 - this.timeLeft);
+            // Calculate time spent based on exam settings duration and remaining time
+            const examDuration = parseInt(localStorage.getItem('examDuration') || '7200');
+            const timeSpent = this.formatTime(examDuration - this.timeLeft);
 
             const response = await fetch('http://localhost:5000/submit-exam', {
                 method: 'POST',
@@ -420,6 +422,8 @@ class ExamManager {
             // Mark exam as submitted
             localStorage.setItem('examSubmitted', 'true');
             localStorage.removeItem('examStarted');
+            localStorage.removeItem('examStartTime');
+            localStorage.removeItem('examDuration');
             
             // Save results and redirect to results page
             localStorage.setItem('examResults', JSON.stringify(results));
@@ -453,6 +457,7 @@ class ExamManager {
             
             const settings = await response.json();
             this.timeLeft = settings.duration; // Set duration from server
+            localStorage.setItem('examDuration', settings.duration.toString()); // Store duration for later use
             
             // Update timer display immediately
             const hours = Math.floor(this.timeLeft / 3600);
@@ -464,6 +469,7 @@ class ExamManager {
         } catch (error) {
             console.error("Error fetching exam settings:", error);
             this.timeLeft = 7200; // Default to 2 hours if fetch fails
+            localStorage.setItem('examDuration', '7200'); // Store default duration
             this.showAlert('Failed to load exam duration. Using default duration.', 'warning');
         }
     }

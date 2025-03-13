@@ -81,6 +81,9 @@ async function loadDashboardData() {
         
         // Load questions list
         await loadQuestions();
+
+        // Load exam results
+        await loadExamResults();
     } catch (error) {
         console.error('Error loading dashboard data:', error);
         showToast('Failed to load dashboard data', 'error');
@@ -520,4 +523,48 @@ function downloadQuestions() {
         console.error('Error downloading questions:', error);
         showToast('Failed to download questions', 'error');
     });
+}
+
+// Load exam results from text file
+async function loadExamResults() {
+    try {
+        const response = await fetch(backendURL + '/admin/results-from-file', {
+            headers: { 'Authorization': 'Bearer ' + localStorage.getItem('adminToken') }
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch results');
+        }
+
+        const results = await response.json();
+        const tbody = document.getElementById('resultsTableBody');
+        
+        if (results.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="4" class="text-center">No results found</td></tr>';
+            return;
+        }
+
+        tbody.innerHTML = results.map(result => `
+            <tr>
+                <td>${result.email}</td>
+                <td>${result.score}/${result.totalQuestions}</td>
+                <td>${result.percentage}%</td>
+                <td>${result.timeSpent || 'N/A'}</td>
+            </tr>
+        `).join('');
+
+    } catch (error) {
+        console.error('Error loading results:', error);
+        showToast('Failed to load exam results', 'error');
+    }
+}
+
+// Refresh results
+async function refreshResults() {
+    try {
+        await loadExamResults();
+        showToast('Results refreshed successfully', 'success');
+    } catch (error) {
+        showToast('Failed to refresh results', 'error');
+    }
 } 

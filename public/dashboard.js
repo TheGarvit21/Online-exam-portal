@@ -13,7 +13,7 @@ class ExamManager {
         // Initialize basic properties
         this.questions = [];
         this.currentQuestionIndex = 0;
-        this.timeLeft = 7200;
+        this.timeLeft = 0; // Initialize to 0, will be set by loadExamSettings
         this.answers = new Map();
         this.markedQuestions = new Set();
         this.startTime = new Date();
@@ -24,14 +24,24 @@ class ExamManager {
             this.attachEventListeners();
             this.createAlertContainer();
             
-            // Show instructions modal if needed
-            if (!localStorage.getItem('examStarted') && !localStorage.getItem('examSubmitted')) {
-                this.showInstructionsModal();
-            } else if (localStorage.getItem('examSubmitted')) {
-                localStorage.removeItem('examSubmitted');
-                localStorage.removeItem('examStarted');
-                this.showInstructionsModal();
-            }
+            // Load questions and exam settings
+            Promise.all([this.loadQuestions(), this.loadExamSettings()]).then(() => {
+                // Show instructions modal if needed
+                if (!localStorage.getItem('examStarted') && !localStorage.getItem('examSubmitted')) {
+                    this.showInstructionsModal();
+                } else if (localStorage.getItem('examSubmitted')) {
+                    localStorage.removeItem('examSubmitted');
+                    localStorage.removeItem('examStarted');
+                    this.showInstructionsModal();
+                } else if (localStorage.getItem('examStarted')) {
+                    // If exam was already started, restore the time left
+                    const startTime = parseInt(localStorage.getItem('examStartTime') || '0');
+                    const currentTime = new Date().getTime();
+                    const elapsedSeconds = Math.floor((currentTime - startTime) / 1000);
+                    this.timeLeft = Math.max(0, this.timeLeft - elapsedSeconds);
+                    this.startTimer();
+                }
+            });
         } catch (error) {
             console.error('Error initializing elements:', error);
             return;
@@ -78,7 +88,8 @@ class ExamManager {
             '#next-question',
             '#submit-exam',
             '#instructionsModal',
-            '#startExamBtn'
+            '#startExamBtn',
+            '#userName'
         ];
 
         for (const selector of requiredElements) {
@@ -99,6 +110,16 @@ class ExamManager {
         this.prevButton = document.getElementById('prev-question');
         this.nextButton = document.getElementById('next-question');
         this.submitButton = document.getElementById('submit-exam');
+
+        // Display user email
+        try {
+            const userData = JSON.parse(localStorage.getItem('user'));
+            if (userData && userData.email) {
+                document.getElementById('userName').textContent = userData.email;
+            }
+        } catch (error) {
+            console.error('Error displaying user email:', error);
+        }
     }
 
     attachEventListeners() {
@@ -248,7 +269,18 @@ class ExamManager {
             clearInterval(this.timerInterval);
         }
 
+        // Store the start time if not already stored
+        if (!localStorage.getItem('examStartTime')) {
+            localStorage.setItem('examStartTime', new Date().getTime().toString());
+        }
+
         this.timerInterval = setInterval(() => {
+            if (this.timeLeft <= 0) {
+                clearInterval(this.timerInterval);
+                this.submitExam();
+                return;
+            }
+
             this.timeLeft--;
             const hours = Math.floor(this.timeLeft / 3600);
             const minutes = Math.floor((this.timeLeft % 3600) / 60);
@@ -264,11 +296,6 @@ class ExamManager {
                 if (this.timeLeft <= 60) { // Last 1 minute
                     this.timerDisplay.style.animation = 'blink 1s infinite';
                 }
-            }
-
-            if (this.timeLeft <= 0) {
-                clearInterval(this.timerInterval);
-                this.submitExam();
             }
         }, 1000);
     }
@@ -324,25 +351,17 @@ class ExamManager {
     }
 
     showInstructionsModal() {
-        try {
-            const modal = new bootstrap.Modal(document.getElementById('instructionsModal'));
-            modal.show();
+        const modal = new bootstrap.Modal(document.getElementById('instructionsModal'));
+        modal.show();
 
-            const startButton = document.getElementById('startExamBtn');
-            // Remove any existing event listeners
-            startButton.replaceWith(startButton.cloneNode(true));
-            
-            // Add new event listener
-            document.getElementById('startExamBtn').addEventListener('click', async () => {
-                localStorage.setItem('examStarted', 'true');
-                modal.hide();
-                await this.loadExamSettings();
-                await this.loadQuestions();
-            });
-        } catch (error) {
-            console.error('Error showing instructions modal:', error);
-            this.showAlert('Error initializing exam. Please refresh the page.', 'error');
-        }
+        // Add event listener to start exam button
+        document.getElementById('startExamBtn').addEventListener('click', () => {
+            localStorage.setItem('examStarted', 'true');
+            localStorage.setItem('examStartTime', new Date().getTime().toString());
+            modal.hide();
+            this.startTimer();
+            this.displayCurrentQuestion();
+        });
     }
 
     async submitExam() {
@@ -433,11 +452,19 @@ class ExamManager {
             }
             
             const settings = await response.json();
-            this.timeLeft = settings.duration; // Use duration from server
-            this.startTimer(); // Start timer with the correct duration
+            this.timeLeft = settings.duration; // Set duration from server
+            
+            // Update timer display immediately
+            const hours = Math.floor(this.timeLeft / 3600);
+            const minutes = Math.floor((this.timeLeft % 3600) / 60);
+            const seconds = this.timeLeft % 60;
+            this.timerDisplay.textContent = 
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                
         } catch (error) {
             console.error("Error fetching exam settings:", error);
-            this.startTimer(); // Start with default duration if fetch fails
+            this.timeLeft = 7200; // Default to 2 hours if fetch fails
+            this.showAlert('Failed to load exam duration. Using default duration.', 'warning');
         }
     }
 }

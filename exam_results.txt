@@ -1,131 +1,1529 @@
 
 ===========================================
-Exam Results - 13/3/2025, 2:07:10 pm
+Exam Results - 13/3/2025, 2:38:13 pm
 ===========================================
-Email: xyz@gmail.com
-Score: 10/20
-Percentage: 50.00%
-Time Spent: 1h 50m 40s
+Email: rishika@gmail.com
+Score: 0/40
+Percentage: 0.00%
+Time Spent: 0h 0m 0s
 
 Detailed Question Analysis:
 
-Question 1: Which keyword is used to define a function in JavaScript?
-Your Answer: function
-Correct Answer: function
-Status: ✓ Correct
-
-
-Question 2: What is the time complexity of searching an element in a binary search tree (BST) on average?
-Your Answer: O(n)
-Correct Answer: O(log n)
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
 Status: ✗ Incorrect
 
 
-Question 3: Which of the following is not a programming language?
-Your Answer: Java
-Correct Answer: HTML
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
 Status: ✗ Incorrect
 
 
-Question 4: Which data structure follows the FIFO principle?
-Your Answer: Queue
-Correct Answer: Queue
-Status: ✓ Correct
-
-
-Question 5: Which symbol is used for single-line comments in Python?
-Your Answer: #
-Correct Answer: #
-Status: ✓ Correct
-
-
-Question 6: What does the 'typeof' operator return for an array in JavaScript?
-Your Answer: object
-Correct Answer: object
-Status: ✓ Correct
-
-
-Question 7: Which sorting algorithm has the best average-case time complexity?
-Your Answer: Quick Sort
-Correct Answer: Quick Sort
-Status: ✓ Correct
-
-
-Question 8: Which method is used to remove the last element of an array in JavaScript?
-Your Answer: pop()
-Correct Answer: pop()
-Status: ✓ Correct
-
-
-Question 9: Which of the following is a dynamically typed programming language?
-Your Answer: Java
-Correct Answer: Python
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
 Status: ✗ Incorrect
 
 
-Question 10: Which data structure is used for implementing recursion?
-Your Answer: Stack
-Correct Answer: Stack
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 2:53:45 pm
+===========================================
+Email: rishika@gmail.com
+Score: 1/40
+Percentage: 2.50%
+Time Spent: 1h 50m 8s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Play-Way Method
+Correct Answer: Play-Way Method
 Status: ✓ Correct
 
 
-Question 11: Which loop is guaranteed to execute at least once?
-Your Answer: while loop
-Correct Answer: do-while loop
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
 Status: ✗ Incorrect
 
 
-Question 12: Which of the following is a backend framework?
-Your Answer: Angular
-Correct Answer: Express
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
 Status: ✗ Incorrect
 
 
-Question 13: Which of the following is NOT a valid variable name in Python?
-Your Answer: 2variable
-Correct Answer: 2variable
-Status: ✓ Correct
-
-
-Question 14: Which operator is used to access a member of a struct in C?
-Your Answer: .
-Correct Answer: .
-Status: ✓ Correct
-
-
-Question 15: Which of the following data structures is used to implement a LRU cache?
-Your Answer: Stack
-Correct Answer: Linked List + Hash Map
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
 Status: ✗ Incorrect
 
 
-Question 16: Which function is used to read a line of input in C?
-Your Answer: gets()
-Correct Answer: fgets()
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
 Status: ✗ Incorrect
 
 
-Question 17: Which of the following is NOT an OOP principle?
-Your Answer: Abstraction
-Correct Answer: Compilation
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Running
+Correct Answer: Writing
 Status: ✗ Incorrect
 
 
-Question 18: What is the default port number for HTTP?
-Your Answer: 80
-Correct Answer: 80
-Status: ✓ Correct
-
-
-Question 19: Which of the following is a JavaScript framework?
-Your Answer: Spring Boot
-Correct Answer: Next.js
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
 Status: ✗ Incorrect
 
 
-Question 20: Which of the following file extensions is used for Java source files?
-Your Answer: .js
-Correct Answer: .java
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 4:43:59 pm
+===========================================
+Email: xyz@gmail.com
+Score: 0/40
+Percentage: 0.00%
+Time Spent: 0h 0m 0s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 4:53:08 pm
+===========================================
+Email: xyz@gmail.com
+Score: 0/41
+Percentage: 0.00%
+Time Spent: 0h 0m 0s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 41: hey i m garvit
+Your Answer: Not answered
+Correct Answer: dev
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 4:55:38 pm
+===========================================
+Email: xyz@gmail.com
+Score: 0/41
+Percentage: 0.00%
+Time Spent: 0h 0m 8s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 41: hey i m garvit
+Your Answer: Not answered
+Correct Answer: dev
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 5:00:54 pm
+===========================================
+Email: garvit@gmail.com
+Score: 0/41
+Percentage: 0.00%
+Time Spent: 1h 41m 49s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 41: hey i m garvit
+Your Answer: Not answered
+Correct Answer: dev
 Status: ✗ Incorrect
 
 ===========================================

@@ -461,6 +461,50 @@ app.get("/exam-settings", async (req, res) => {
     }
 });
 
+// Get exam results from file
+app.get("/admin/results-from-file", isAdmin, async (req, res) => {
+    try {
+        const filePath = path.join(__dirname, 'exam_results.txt');
+        
+        // Check if file exists
+        if (!fs.existsSync(filePath)) {
+            return res.json([]);
+        }
+
+        // Read file content
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const examResults = [];
+        
+        // Split content into individual exam results
+        const resultBlocks = fileContent.split('===========================================\n\n');
+        
+        for (const block of resultBlocks) {
+            if (!block.trim()) continue;
+
+            // Extract information using regex
+            const emailMatch = block.match(/Email: (.+)/);
+            const scoreMatch = block.match(/Score: (\d+)\/(\d+)/);
+            const percentageMatch = block.match(/Percentage: ([\d.]+)%/);
+            const timeSpentMatch = block.match(/Time Spent: (.+)/);
+
+            if (emailMatch && scoreMatch && percentageMatch) {
+                examResults.push({
+                    email: emailMatch[1].trim(),
+                    score: scoreMatch[1],
+                    totalQuestions: scoreMatch[2],
+                    percentage: parseFloat(percentageMatch[1]).toFixed(2),
+                    timeSpent: timeSpentMatch ? timeSpentMatch[1].trim() : 'N/A'
+                });
+            }
+        }
+
+        res.json(examResults);
+    } catch (error) {
+        console.error("Error reading exam results:", error);
+        res.status(500).json({ message: "Failed to read exam results", error: error.message });
+    }
+});
+
 // Delete all questions with proper validation
 app.delete("/admin/questions", isAdmin, async (req, res) => {
     try {

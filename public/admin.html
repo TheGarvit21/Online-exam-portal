@@ -173,15 +173,15 @@
             </div>
             <div class="card-body">
                 <form id="uploadForm" enctype="multipart/form-data">
-                    <div class="mb-3">
+                <div class="mb-3">
                         <label class="form-label">Upload Questions (JSON)</label>
                         <input type="file" class="form-control" id="bulkQuestions" name="questions" accept=".json" required>
                         <small class="text-muted">Format: JSON array of questions with format shown in template</small>
-                    </div>
-                    <div class="mb-3">
+                </div>
+                <div class="mb-3">
                         <button type="submit" class="btn btn-success me-2">
-                            <i class="fas fa-upload"></i> Upload Questions
-                        </button>
+                        <i class="fas fa-upload"></i> Upload Questions
+                    </button>
                         <button type="button" onclick="downloadQuestions()" class="btn btn-outline-secondary me-2">
                             <i class="fas fa-download"></i> Download Current Questions
                         </button>
@@ -281,6 +281,33 @@
 
                     <button type="submit" class="btn btn-primary">Add Question</button>
                 </form>
+            </div>
+        </div>
+
+        <!-- Exam Results Section -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Exam Results</h4>
+                <button class="btn btn-light" onclick="refreshResults()">
+                    <i class="fas fa-sync-alt"></i> Refresh Results
+                </button>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Email</th>
+                                <th>Score</th>
+                                <th>Percentage</th>
+                                <th>Time Spent</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultsTableBody">
+                            <!-- Results will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <style>
+        .option-item {
+            cursor: pointer;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .option-item:hover {
+            background-color: #f8f9fa;
+            border-color: #0d6efd;
+        }
+        
+        .option-item.selected {
+            background-color: #e7f1ff;
+            border-color: #0d6efd;
+        }
+        
+        .question-content {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        #question-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            gap: 0.5rem;
+        }
+        
+        .grid-button {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        
+        .grid-button.answered {
+            background-color: #198754;
+            color: white;
+            border-color: #198754;
+        }
+        
+        .grid-button.current {
+            border: 2px solid #0d6efd;
+            font-weight: bold;
+        }
+
+        /* Modal styles */
+        .modal-content {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .modal-header.bg-success, .modal-header.bg-danger {
+            color: white;
+        }
+        
+        .display-4 {
+            font-weight: bold;
+        }
+        
+        .table-responsive {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .exam-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .exam-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .timer-container {
+            font-size: 1.25rem;
+            color: #2d3748;
+            padding: 0.5rem 1rem;
+            background: #f7fafc;
+            border-radius: 4px;
+        }
+
+        .question-card {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .question-number {
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .options-container {
+            display: grid;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .option {
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .option:hover {
+            background: #f7fafc;
+        }
+
+        .option input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+
+        /* Result Styles */
+        .result-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .result-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 1.5rem;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .stat .label {
+            display: block;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat .value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .detailed-results {
+            margin-top: 2rem;
+        }
+
+        .result-item {
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .result-item.correct {
+            background: #f0fff4;
+            border: 1px solid #9ae6b4;
+        }
+
+        .result-item.incorrect {
+            background: #fff5f5;
+            border: 1px solid #feb2b2;
+        }
+
+        .result-item .question {
+            margin-bottom: 0.5rem;
+        }
+
+        .result-item .number {
+            font-weight: bold;
+        }
+
+        .result-item .answers {
+            color: #4a5568;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Online Exam Portal</a>
+            <div class="ms-auto d-flex align-items-center">
+                <div id="userInfo" class="text-white me-3">
+                    <i class="fas fa-user"></i> <span id="userName"></span>
+                </div>
+                <div id="timer" class="text-white me-3">
+                    <i class="fas fa-clock"></i> Time Remaining: <span id="time">02:00:00</span>
+                </div>
+                <button id="submit-exam" class="btn btn-light me-2">Submit Exam</button>
+                <button onclick="logout()" class="btn btn-outline-light">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div id="alertContainer" class="mb-3"></div>
+        
+        <!-- Instructions Modal -->
+        <div class="modal fade" id="instructionsModal" tabindex="-1" aria-labelledby="instructionsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title" id="instructionsModalLabel">Exam Instructions</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Please read the following instructions carefully:</h4>
+                        <ol>
+                            <li>The exam duration is 2 hours.</li>
+                            <li>There are multiple choice questions with 4 options each.</li>
+                            <li>Each question carries equal marks.</li>
+                            <li>You can mark questions for review and return to them later.</li>
+                            <li>Once you submit the exam, you cannot return to it.</li>
+                            <li>The exam will auto-submit when the time runs out.</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="startExamBtn">Start Exam</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Main Content Area -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="question-container">
+                            <h3 class="question-number mb-3">Question <span id="current-question">1</span></h3>
+                            <div class="question-content"></div>
+                            <div class="options-container mt-3"></div>
+                        </div>
+                        <div class="navigation-buttons mt-4">
+                            <button id="prev-question" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Previous
+                            </button>
+                            <button id="next-question" class="btn btn-primary">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Navigation Panel -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Question Navigation
+                    </div>
+                    <div class="card-body">
+                        <div class="question-status mb-3">
+                            <span class="badge bg-success">Answered: <span id="answered-count">0</span></span>
+                            <span class="badge bg-warning">Marked: <span id="marked-count">0</span></span>
+                            <span class="badge bg-danger">Not Visited: <span id="not-visited-count">0</span></span>
+                        </div>
+                        <div id="question-grid" class="d-flex flex-wrap gap-2">
+                            <!-- Question numbers will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Modal Container (will be populated dynamically) -->
+    <div id="resultsModalContainer"></div>
+
+    <!-- Bootstrap and other scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dashboard.js"></script>
+    <script>
+    function logout() {
+        if (confirm('Are you sure you want to logout? Any unsaved progress will be lost.')) {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            window.location.href = 'login.html';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const user = JSON.parse(localStorage.getItem('user') || '{}');
+        if (user.username) {
+            document.getElementById('userName').textContent = user.username;
+        }
+    });
+    </script>
+</body>
+</html>

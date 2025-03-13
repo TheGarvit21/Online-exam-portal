@@ -205,11 +205,6 @@ class ExamManager {
             item.addEventListener('click', () => {
                 const selectedOption = item.dataset.option;
                 this.selectOption(selectedOption);
-                
-                // Move to next question automatically after selection
-                if (this.currentQuestionIndex < this.questions.length - 1) {
-                    setTimeout(() => this.navigateQuestion(1), 500);
-                }
             });
         });
 

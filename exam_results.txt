@@ -256,3 +256,939 @@ Status: ✗ Incorrect
 
 ===========================================
 
+
+===========================================
+Exam Results - 13/3/2025, 5:22:13 pm
+===========================================
+Email: garv@gmail.com
+Score: 1/40
+Percentage: 2.50%
+Time Spent: 0h 0m 20s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Concrete Operational
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Scoring high marks in an exam
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Not answered
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Motivation
+Correct Answer: Motivation
+Status: ✓ Correct
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:02:26 pm
+===========================================
+Email: garv@gmail.com
+Score: 1/40
+Percentage: 2.50%
+Time Spent: 0h 0m 14s
+
+Detailed Question Analysis:
+
+Question 1: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 2: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 3: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Social Interaction
+Correct Answer: Social Interaction
+Status: ✓ Correct
+
+
+Question 4: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 5: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 6: Which of the following is a feature of child-centered education?
+Your Answer: Not answered
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 7: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 8: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 9: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 10: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Moral Development
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 11: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 12: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 13: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 14: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 15: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 16: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 17: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 18: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 19: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 20: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+
+Question 21: Who is known as the father of child psychology?
+Your Answer: Not answered
+Correct Answer: Jean Piaget
+Status: ✗ Incorrect
+
+
+Question 22: Which stage of Piaget’s cognitive development is characterized by egocentrism?
+Your Answer: Not answered
+Correct Answer: Preoperational
+Status: ✗ Incorrect
+
+
+Question 23: According to Vygotsky, what plays a crucial role in cognitive development?
+Your Answer: Maturation
+Correct Answer: Social Interaction
+Status: ✗ Incorrect
+
+
+Question 24: Which of the following is an example of intrinsic motivation?
+Your Answer: Not answered
+Correct Answer: Enjoying the process of learning
+Status: ✗ Incorrect
+
+
+Question 25: Howard Gardner’s theory of Multiple Intelligences includes all EXCEPT:
+Your Answer: Not answered
+Correct Answer: Genetic Intelligence
+Status: ✗ Incorrect
+
+
+Question 26: Which of the following is a feature of child-centered education?
+Your Answer: Teacher dominance
+Correct Answer: Active participation of children
+Status: ✗ Incorrect
+
+
+Question 27: According to Kohlberg, in which stage of moral development do children obey rules to avoid punishment?
+Your Answer: Not answered
+Correct Answer: Pre-conventional
+Status: ✗ Incorrect
+
+
+Question 28: Which learning theory emphasizes reinforcement and punishment?
+Your Answer: Not answered
+Correct Answer: Behaviorism
+Status: ✗ Incorrect
+
+
+Question 29: What does the term ‘scaffolding’ refer to in Vygotsky’s theory?
+Your Answer: Not answered
+Correct Answer: Providing temporary support to a learner
+Status: ✗ Incorrect
+
+
+Question 30: Which type of development focuses on emotions, personality, and relationships?
+Your Answer: Not answered
+Correct Answer: Social-Emotional Development
+Status: ✗ Incorrect
+
+
+Question 31: Which of the following is a characteristic of inclusive education?
+Your Answer: Not answered
+Correct Answer: Providing equal opportunities for all learners
+Status: ✗ Incorrect
+
+
+Question 32: Who proposed the Hierarchy of Needs theory?
+Your Answer: Not answered
+Correct Answer: Abraham Maslow
+Status: ✗ Incorrect
+
+
+Question 33: Which method is most effective in teaching young children?
+Your Answer: Not answered
+Correct Answer: Play-Way Method
+Status: ✗ Incorrect
+
+
+Question 34: Which principle states that development proceeds from head to toe?
+Your Answer: Not answered
+Correct Answer: Cephalocaudal Principle
+Status: ✗ Incorrect
+
+
+Question 35: According to Erikson, what is the primary conflict in early childhood?
+Your Answer: Not answered
+Correct Answer: Autonomy vs. Shame and Doubt
+Status: ✗ Incorrect
+
+
+Question 36: Which factor is MOST important in the learning process?
+Your Answer: Not answered
+Correct Answer: Motivation
+Status: ✗ Incorrect
+
+
+Question 37: Which of the following best describes experiential learning?
+Your Answer: Not answered
+Correct Answer: Learning by doing
+Status: ✗ Incorrect
+
+
+Question 38: Which of the following is an example of fine motor skill development?
+Your Answer: Not answered
+Correct Answer: Writing
+Status: ✗ Incorrect
+
+
+Question 39: Which of the following is a major criticism of Piaget’s theory?
+Your Answer: Not answered
+Correct Answer: Underestimation of children's abilities
+Status: ✗ Incorrect
+
+
+Question 40: What is the main role of a teacher in a constructivist classroom?
+Your Answer: Not answered
+Correct Answer: To facilitate learning experiences
+Status: ✗ Incorrect
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:06:47 pm
+===========================================
+Email: garvit@gmail.com
+Score: 4/10
+Percentage: 40.00%
+Time Spent: 0h 0m 57s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: String
+Correct Answer: Float
+Status: ✗ Incorrect
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Null
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.stringify()
+Correct Answer: JSON.parse()
+Status: ✗ Incorrect
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: String
+Correct Answer: Float
+Status: ✗ Incorrect
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Null
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.toObject()
+Correct Answer: JSON.parse()
+Status: ✗ Incorrect
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:10:26 pm
+===========================================
+Email: garv@gmail.com
+Score: 6/10
+Percentage: 60.00%
+Time Spent: 0h 0m 44s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Undefined
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.stringify()
+Correct Answer: JSON.parse()
+Status: ✗ Incorrect
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: var
+Correct Answer: All of the above
+Status: ✗ Incorrect
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Number
+Correct Answer: Number
+Status: ✓ Correct
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.toObject()
+Correct Answer: JSON.parse()
+Status: ✗ Incorrect
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:11:43 pm
+===========================================
+Email: garv@gmail.com
+Score: 10/10
+Percentage: 100.00%
+Time Spent: 0h 1m 1s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Number
+Correct Answer: Number
+Status: ✓ Correct
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Number
+Correct Answer: Number
+Status: ✓ Correct
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:13:26 pm
+===========================================
+Email: xyz@gmail.com
+Score: 7/10
+Percentage: 70.00%
+Time Spent: 0h 0m 33s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: Boolean
+Correct Answer: Float
+Status: ✗ Incorrect
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Undefined
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Undefined
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:14:34 pm
+===========================================
+Email: xyz@gmail.com
+Score: 6/10
+Percentage: 60.00%
+Time Spent: 0h 0m 36s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: let
+Correct Answer: All of the above
+Status: ✗ Incorrect
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: Boolean
+Correct Answer: Float
+Status: ✗ Incorrect
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Number
+Correct Answer: Number
+Status: ✓ Correct
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: let
+Correct Answer: All of the above
+Status: ✗ Incorrect
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: Boolean
+Correct Answer: Float
+Status: ✗ Incorrect
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Number
+Correct Answer: Number
+Status: ✓ Correct
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+
+
+===========================================
+Exam Results - 13/3/2025, 9:16:53 pm
+===========================================
+Email: xyz@gmail.com
+Score: 6/10
+Percentage: 60.00%
+Time Spent: 0h 0m 31s
+
+Detailed Question Analysis:
+
+Question 1: Which keyword is used to declare a variable in JavaScript?
+Your Answer: All of the above
+Correct Answer: All of the above
+Status: ✓ Correct
+
+
+Question 2: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 3: What will `console.log(typeof NaN);` output?
+Your Answer: Undefined
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 4: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.parse()
+Correct Answer: JSON.parse()
+Status: ✓ Correct
+
+
+Question 5: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+
+Question 6: Which keyword is used to declare a variable in JavaScript?
+Your Answer: const
+Correct Answer: All of the above
+Status: ✗ Incorrect
+
+
+Question 7: Which of the following is NOT a JavaScript data type?
+Your Answer: Float
+Correct Answer: Float
+Status: ✓ Correct
+
+
+Question 8: What will `console.log(typeof NaN);` output?
+Your Answer: Undefined
+Correct Answer: Number
+Status: ✗ Incorrect
+
+
+Question 9: Which method is used to convert a JSON string into a JavaScript object?
+Your Answer: JSON.toObject()
+Correct Answer: JSON.parse()
+Status: ✗ Incorrect
+
+
+Question 10: What will `console.log(2 + '2' - 1);` return?
+Your Answer: 21
+Correct Answer: 21
+Status: ✓ Correct
+
+===========================================
+

@@ -158,44 +158,62 @@
                 return;
             }
 
-            // Update UI elements
-            const scoreCircle = document.getElementById('scoreCircle');
-            const scoreNumber = document.getElementById('scoreNumber');
-            const statusBadge = document.getElementById('statusBadge');
-            
-            // Set score and styling
-            const isPassed = results.percentage >= 50;
-            scoreCircle.className = `score-circle ${isPassed ? 'pass' : 'fail'}`;
-            scoreNumber.className = `score-number ${isPassed ? 'pass' : 'fail'}`;
-            scoreNumber.textContent = `${results.percentage}%`;
-            
-            // Set status badge
-            statusBadge.className = `status-badge ${isPassed ? 'pass' : 'fail'}`;
-            statusBadge.textContent = isPassed ? 'PASSED' : 'FAILED';
+            // Fetch exam settings to get passing percentage
+            fetch('http://localhost:5000/exam-settings', {
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            })
+            .then(response => response.json())
+            .then(settings => {
+                const passingPercentage = settings.passingPercentage || 50;
 
-            // Set other details
-            document.getElementById('totalQuestions').textContent = results.totalQuestions;
-            document.getElementById('correctAnswers').textContent = results.score;
-            document.getElementById('timeSpent').textContent = results.timeSpent;
-            document.getElementById('userEmail').textContent = user.email;
+                // Update UI elements
+                const scoreCircle = document.getElementById('scoreCircle');
+                const scoreNumber = document.getElementById('scoreNumber');
+                const statusBadge = document.getElementById('statusBadge');
+                
+                // Set score and styling
+                const isPassed = results.percentage >= passingPercentage;
+                scoreCircle.className = `score-circle ${isPassed ? 'pass' : 'fail'}`;
+                scoreNumber.className = `score-number ${isPassed ? 'pass' : 'fail'}`;
+                scoreNumber.textContent = `${results.percentage}%`;
+                
+                // Set status badge
+                statusBadge.className = `status-badge ${isPassed ? 'pass' : 'fail'}`;
+                statusBadge.textContent = isPassed ? 'PASSED' : 'FAILED';
 
-            // Display detailed results
-            const detailedResults = document.getElementById('detailedResults');
-            results.detailedResults.forEach((item, index) => {
-                const div = document.createElement('div');
-                div.className = 'question-item';
-                div.innerHTML = `
-                    <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
-                    <p>Your Answer: <span class="${item.isCorrect ? 'correct' : 'incorrect'}">
-                        ${item.userAnswer || 'Not answered'}
-                    </span></p>
-                    <p>Correct Answer: <span class="correct">${item.correctAnswer}</span></p>
-                    <p>
-                        <i class="fas ${item.isCorrect ? 'fa-check-circle correct' : 'fa-times-circle incorrect'}"></i>
-                        ${item.isCorrect ? 'Correct' : 'Incorrect'}
-                    </p>
-                `;
-                detailedResults.appendChild(div);
+                // Set other details
+                document.getElementById('totalQuestions').textContent = results.totalQuestions;
+                document.getElementById('correctAnswers').textContent = results.score;
+                document.getElementById('timeSpent').textContent = results.timeSpent;
+                document.getElementById('userEmail').textContent = user.email;
+
+                // Display detailed results
+                const detailedResults = document.getElementById('detailedResults');
+                results.detailedResults.forEach((item, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'question-item';
+                    div.innerHTML = `
+                        <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
+                        <p>Your Answer: <span class="${item.isCorrect ? 'correct' : 'incorrect'}">
+                            ${item.userAnswer || 'Not answered'}
+                        </span></p>
+                        <p>Correct Answer: <span class="correct">${item.correctAnswer}</span></p>
+                        <p>
+                            <i class="fas ${item.isCorrect ? 'fa-check-circle correct' : 'fa-times-circle incorrect'}"></i>
+                            ${item.isCorrect ? 'Correct' : 'Incorrect'}
+                        </p>
+                    `;
+                    detailedResults.appendChild(div);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching exam settings:', error);
+                // Fallback to default 50% passing percentage
+                const isPassed = results.percentage >= 50;
+                document.getElementById('statusBadge').className = `status-badge ${isPassed ? 'pass' : 'fail'}`;
+                document.getElementById('statusBadge').textContent = isPassed ? 'PASSED' : 'FAILED';
             });
         });
 
